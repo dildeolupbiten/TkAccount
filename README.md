@@ -38,7 +38,7 @@ In order to run **TkAccount**, at least [Python](https://www.python.org/)'s 3.6 
 
 ![img3](https://user-images.githubusercontent.com/29302909/98676558-cf856c80-236c-11eb-8191-3a02e9dee8fb.png)
 
-As can be seen above, there are two buttons at the top of the window. The green colored plus button is for creation category frames. And the red colored minus button is for removing the selected category frame. So if we click the plus button, a frame as below would be created.
+As can be seen above, there are two buttons at the top of the window. The green colored plus button is for creating category frames. And the red colored minus button is for removing the selected category frame. So if we click the plus button, a frame as below would be created.
 
 ![img4](https://user-images.githubusercontent.com/29302909/98676929-54708600-236d-11eb-9da0-69f1ad0da1cf.png)
 
