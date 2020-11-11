@@ -72,18 +72,7 @@ class Category(FormWindow):
                     icons=icons,
                     width=360
                 )
-            elif (
-                    self.error
-                    ==
-                    "There's already a category with \nthis name!"
-            ):
-                MsgBox(
-                    title="Warning",
-                    level="warning",
-                    icons=icons,
-                    message=self.error
-                )
-            elif self.error == "Fill all entries!":
+            else:
                 MsgBox(
                     title="Warning",
                     level="warning",
