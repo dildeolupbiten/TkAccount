@@ -52,7 +52,7 @@ Note that all entries that are created must be filled and the neighbour categori
 
 ![img6](https://user-images.githubusercontent.com/29302909/98820771-aaadf980-243f-11eb-9e18-a329cbee7656.png)
 
-![img7](https://user-images.githubusercontent.com/29302909/98678966-5f78e580-2370-11eb-8dab-f52e4a86b7b0.png)
+![img7](https://user-images.githubusercontent.com/29302909/98821017-05dfec00-2440-11eb-9106-4db7bfd42f31.png)
 
 In order to delete an entire category frame, the checkbutton of the category that is wanted to be deleted should be checked and the minus button at the top is used. This would delete the sub categories of a selected category too. However if a sub category is wanted to be deleted, the minus button of the parent category should be used.
 
