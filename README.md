@@ -60,7 +60,7 @@ If we fill the category and sub category fields as can be accepted, we could pre
 
 ![img8](https://user-images.githubusercontent.com/29302909/98679893-b3d09500-2371-11eb-91cc-12cb816c54c8.png)
 
-**4.2.** After created the categories, we are creating the products. In order to do that we are clicking the **Product** menu button of **Add** menu cascade. After we click the **Product** button, a window as below should open.
+**4.2.** After created the categories, we are creating products. In order to do that we are clicking the **Product** menu button of **Add** menu cascade. After we click the **Product** button, a window as below should open.
 
 ![img9](https://user-images.githubusercontent.com/29302909/98680317-4a9d5180-2372-11eb-8431-c5f3823f48c9.png)
 
@@ -76,7 +76,7 @@ We could add many products by clicking the plus button. If all entries are fille
 
 ![img11](https://user-images.githubusercontent.com/29302909/98821250-5c4d2a80-2440-11eb-9cd9-d85ce0587d27.png)
 
-**4.3.** After created the products, we could create the **Orders**. In order to do that, we should click the **Orders** menu button of **Add** menu cascade. When we click this button, a window as below should open.
+**4.3.** After created the products, we could create orders. In order to do that, we should click the **Orders** menu button of **Add** menu cascade. When we click this button, a window as below should open.
 
 ![img12](https://user-images.githubusercontent.com/29302909/98687269-9b18ad00-237a-11eb-9736-5a6ad34b71a0.png)
 
