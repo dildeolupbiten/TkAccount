@@ -2,7 +2,7 @@
 
 **TkAccount** is a Python program designed to do some basic accounting operations such as adding categories, products, orders and displaying the orders in a timeline with a cumulative or comparative way.
 
-After downloaded the program, users should see the below files and folders in the main directory of the program.
+After downloaded the program, users should see the files below and folders in the main directory of the program.
 
 ![img1](https://user-images.githubusercontent.com/29302909/98541507-9aabe380-22a0-11eb-8392-506c713da578.png)
 
