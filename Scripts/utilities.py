@@ -340,7 +340,7 @@ def get_data(self, icons):
         MsgBox(
             level="warning",
             title="Warning",
-            message="Fill all the entries.",
+            message="Fill all entries.",
             icons=icons
         )
 
