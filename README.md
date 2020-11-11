@@ -98,51 +98,51 @@ First, we should select the **Product Category**. Selecting the **Product Catego
 
 ![img16](https://user-images.githubusercontent.com/29302909/98690583-247dae80-237e-11eb-8389-9ef9fd05ad04.png)
 
-According to the below image, the greatest value we could write to the **Number Of Products** entry for this product is **39**. If we type **39** to the **Number Of Products** entry, that would mean, all stock for this products would be sold to this customer. And the stock number would become **0**. And this product would be deleted from our stock database. The database of the program is relational. So the stock numbers of the products would be updated when they are sold.
+According to the image below, the greatest value we could write to the **Number Of Products** entry for this product is **39**. If we type **39** to the **Number Of Products** entry, that would mean, all stock for this products would be sold to this customer. And the stock number would become **0**. And this product would be deleted from our stock database. The database of the program is relational. So the stock numbers of the products would be updated when they are sold.
 
-The entry which comes after **Number Of Products** is for specifying the **Discount** that we want to make. And at the right of the **Discount** entry, we are seeing the **Gain** entry. To this entry, we are writing the value that means how much gain we want to have. After filled these entries, the values of **Total Price** and **Total Gain** would be calculated and be inserted to the related entries. Note that we should fill all the entries here too. Below you see a correct example of an order.
+The entry which comes after **Number Of Products** is for specifying the **Discount** that we want to make. And at the right of the **Discount** entry, we are seeing the **Gain** entry. To this entry, we are writing the value that means how much gain we want to have. After filled these entries, the values of **Total Price** and **Total Gain** would be calculated and be inserted to related entries. Note that we should fill all entries here too. Below you see a correct example of an order.
 
 ![img17](https://user-images.githubusercontent.com/29302909/98692361-16309200-2380-11eb-80a3-0d5384054922.png)
 
 Finally, we should click the tick button at the bottom and apply the order.
 
-**5.** When we come to **View** menu cascade, we would see 3 menu buttons called **Orders**, **Products** and **Purchases**. Each menu button would open the records that are stored in the database. We could also change the values of the selected items.
+**5.** When we come to the **View** menu cascade, we would see 3 menu buttons called **Orders**, **Products** and **Purchases**. Each menu button would open records that are stored in the database. We could also change values of selected items.
 
 **5.1.** The **Orders** menu button would open the below window.
 
 ![img18](https://user-images.githubusercontent.com/29302909/98699545-5136c380-2388-11eb-97db-e06f3ab98218.png)
 
-In the example above, we are seeing the records of a test database.
+In the example above, we are seeing records of a test database.
 
 We could select a row from the treeview and then if we use the right click of the mouse, a right click menu opens that has only one option called **Edit**. The **Edit** option would open a new window as below:
 
 ![img19](https://user-images.githubusercontent.com/29302909/98700680-81329680-2389-11eb-9d3f-a382d0d7e4fe.png)
 
-As you see, the opened window contains the values that are stored in the database. If we change the values that are written to the entries and then press the tick button, the changes will be applied to the tables which are relational in the database.
+As you see, the opened window contains values that are stored in the database. If we change values that are written to entries and then press the tick button, the changes will be applied to tables which are relational in the database.
 
-Briefly, if any change is done on the order records, this could effect Product (stock) records also. For example, if we change the **Number Of Products** of a product that a customer is bought, the **Number Of Products** and the **Total **Price** of this product would be changed in the **Products (Stocks)** table. Or if we change the **Product Name**, this time, the previous order would be canceled, the **Number Of Product** of the canceled product would be restored in the **Products (Stocks)** table, the **Total Price** would be re-calculated and finally the **Number of Products** and the **Total Price** of the new product would be changed in the **Products (Stocks)** table.
+Briefly, if any change is done on order records, this could effect **Product (Stocks)** records also. For example, if we change **Number Of Products** of a product that a customer is bought, **Number Of Products** and **Total **Price** of this product would be changed in the **Products (Stocks)** table. Or if we change the **Product Name**, this time, the previous order would be canceled, the **Number Of Products** value of the canceled product would be restored in the **Products (Stocks)** table, the **Total Price** would be re-calculated and finally the **Number of Products** and the **Total Price** of the new product would be changed in the **Products (Stocks)** table.
 
-Changing the **Customer Name**, **Discount**, **Gain** values has no effect on **Products (Stocks)** table but has effect on **Orders** table.
+Changing the **Customer Name**, the **Discount** and the **Gain** values has no effect on the **Products (Stocks)** table but has effect on the **Orders** table.
 
-**5.2.** The **Products** menu button opens the below window.
+**5.2.** The **Products** menu button opens the window below.
 
 ![img20](https://user-images.githubusercontent.com/29302909/98702935-0c149080-238c-11eb-9352-1ca4e05e454d.png)
 
-As we could change the values of records in **Orders** table, we could also change the values of records in **Products** table. So, we need to use the right click of the mouse to **Edit** a record. After clicked the **Edit** option, a window as below should open.
+As we could change values of records in **Orders** table, we could also change values of records in **Products** table. So, we need to use the right click of the mouse to **Edit** a record. After clicked the **Edit** option, a window as below should open.
 
 ![img21](https://user-images.githubusercontent.com/29302909/98703370-7af1e980-238c-11eb-9d92-9baf00a37ce3.png)
 
 Note that the change would only effect the **Products** table.
 
-As mentioned before, the **Number Of Products** and the **Total Price** of the products would change when users create orders. And finally the product which **Number Of Products** become **0** would be deleted from the **Products** table. That means, we ne longer have this product in our stocks.
+As mentioned before, **Number Of Products** and the **Total Price** values of the products would change when users create orders. And finally the product which **Number Of Products** become **0** would be deleted from the **Products** table. That means, we ne longer have this product in our stocks.
 
 **5.3** The **Purchases** menu button open the below window.
 
 ![img22](https://user-images.githubusercontent.com/29302909/98703980-2ac75700-238d-11eb-9de6-069305df7d96.png)
 
-We could also change the values of records in **Purchases** table. However this has no effect upon **Products** and **Orders** tables. In the first time we added products, the **Purchases** and **Products** tables would contain the same items. However, when we start adding orders, the values of products in **Products** table would change. So, the **Purchases** table shows the products that we purchased in time.
+We could also change values of records in **Purchases** table. However this has no effect upon **Products** and **Orders** tables. In the first time we added products, the **Purchases** and **Products** tables would contain same items. However, when we start adding orders, values of products in the **Products** table would change. So, the **Purchases** table shows products that we purchased in time.
 
-In order to edit a record, we should do the same things I described above.
+In order to edit a record, we should do the same things that are described above.
 
 **6.** The **Plot** menu cascade contains two menu buttons called **Products** and **Customers**. The **Products** menu button is for plotting graphs based on products whereas the **Customers** menu button is for plotting graphs based on customers.
 
@@ -150,9 +150,9 @@ In order to edit a record, we should do the same things I described above.
 
 ![img23](https://user-images.githubusercontent.com/29302909/98705276-9827b780-238e-11eb-94fe-e86d40fccab8.png)
 
-As can be seen above, the opened window is separated into two frames vertically. The left frame is the frame we make our selections, the right frame is the frame that the graphs would be displayed.
+As can be seen above, the opened window is separated into two frames vertically. The left frame is the frame we make our selections, the right frame is the frame that graphs would be displayed.
 
-We could select one or more than one products from the treeview. Then we should select the checkbutton groups. 
+We could select one or more than one products from the treeview. Then we should select a checkbutton from the checkbutton groups. 
 
 **Cumulative** and **Comparative** checkbuttons belong to one checkbutton group. Both of them can not be selected at the same time.
 
@@ -164,15 +164,15 @@ When we click the **Comparative** checkbutton, a new checkbutton group is create
 
 So, **Bar** and **Timeline** checkbuttons are another checkbutton group that will be created if we select **Comparative** checkbutton. If we select **Cumulative** checkbutton, the checkbutton group for **Bar** and **Timeline** would be deleted.
 
-Below the checkbuttons, we see three entry fields. The first entry is related to the time unit that we want to use in the graph. This state of this entry is readonly. And it contains 3 values which are **Day**, **Hour** and **Year**.
+Under the checkbuttons, we see three entry fields. The first entry is related to the time unit that we want to use in the graph. This state of this entry is readonly. And it contains 3 values which are **Day**, **Hour** and **Year**.
 
-If we click the **From** and **To** entries, a window like below would open.
+If we click **From** and **To** entries, a window like below would open.
 
 ![img25](https://user-images.githubusercontent.com/29302909/98707377-079ea680-2391-11eb-8ba0-89046bad4950.png)
 
 Note that, the date value of **From** can not be forward than the date value of **To**. Otherwise we would receive a warning message.
 
-Below you see the graphs related to the following selections:
+Below you see graphs related to following selections:
 
 ![img26](https://user-images.githubusercontent.com/29302909/98708437-32d5c580-2392-11eb-8039-17a27d0c681b.png)
 
@@ -180,7 +180,7 @@ Let's change the **Time Unit** as **Month** and take a look at the graph again f
 
 ![img27](https://user-images.githubusercontent.com/29302909/98709000-d921cb00-2392-11eb-9b17-0cbb67627eef.png)
 
-So the above graph shows how many times a specific product is sold during a timeline. If we change **Number Of Products** to **Price**, this time we will see how much a specific product we earned during a specific time range.
+So the above graph shows how many times a specific product is sold during a timeline. If we select the **Price** checkbutton, this time we will see how much a specific product we earned during a specific time range.
 
 ![img28](https://user-images.githubusercontent.com/29302909/98709835-f30fdd80-2393-11eb-9685-a3328c9f008f.png)
 
