@@ -94,7 +94,7 @@ We could also enlarge the window and/or use the scrollbars to see the parts whic
 
 As you see this frame contains a checkbutton which is the left of the frame. We could delete this frame via selecting this frame then pressing the minus button.
 
-First, we should select the **Product Category**. Selecting the **Product Category** will change the values of the **Product Name**. Then, we should select the **Product Name**. After selected the **Product Name**, the **Unit Price** of this product would be inserted to the **Unit Price** entry. And the state of this entry is readonly. Then we should write the **Number Of Products** that the customer is ordered. If the value that is written to this entry is greater than the **Number Of Products** of the stocks in the database, we would receive a warning message like below and the entry field would be cleared.
+First, we should select the **Product Category**. Selecting the **Product Category** will change the values of the **Product Name**. Then, we should select the **Product Name**. After selected the **Product Name**, the **Unit Price** of this product would be inserted to the **Unit Price** entry. And the state of this entry is readonly. Then we should write the **Number Of Products** that the customer is ordered. If the value that is written to this entry is greater than the **Number Of Products** of the stock in the database, we would receive a warning message like below and the entry field would be cleared.
 
 ![img16](https://user-images.githubusercontent.com/29302909/98690583-247dae80-237e-11eb-8389-9ef9fd05ad04.png)
 
