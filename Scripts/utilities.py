@@ -220,6 +220,7 @@ def read_from_database(table, dict_or_list="dict", order_by=""):
 def write_to_database(data, table):
     db = Database(table=table)
     if table == "CATEGORIES":
+        db.drop()
         for i in dict_to_list(data):
             db.insert([i])
     elif table in ["PRODUCTS", "PURCHASES", "ORDERS"]:
