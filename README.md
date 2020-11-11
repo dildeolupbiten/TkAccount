@@ -30,7 +30,7 @@ In order to run **TkAccount**, at least [Python](https://www.python.org/)'s 3.6 
 
 ![img2](https://user-images.githubusercontent.com/29302909/98542012-51a85f00-22a1-11eb-8afc-8eac85d65a30.png)
 
-**3.** As can be seen on the above image, there are 4 menu cascades called **Add**, **View**, **Plot** and **Help**.
+**3.** As can be seen on the image above, there are 4 menu cascades called **Add**, **View**, **Plot** and **Help**.
 
 **4.** The **Add** menu cascade has 3 menu buttons called **Category**, **Product** and **Order**.
 
