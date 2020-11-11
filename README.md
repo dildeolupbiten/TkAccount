@@ -74,7 +74,7 @@ In the **Product Category** field, we should select the categories we added befo
 
 We could add many products by clicking the plus button. If all entries are filled correctly and if we press the **tick** button which is at the bottom of the window, the products would be added to the database. If we forgot to fill an entry of any row, the color of the related entry would colored to red as below.
 
-![img11](https://user-images.githubusercontent.com/29302909/98686984-41b07e00-237a-11eb-8bbe-91ebd3dda582.png)
+![img11](https://user-images.githubusercontent.com/29302909/98821250-5c4d2a80-2440-11eb-9cd9-d85ce0587d27.png)
 
 **4.3.** After created the products, we could create the **Orders**. In order to do that, we should click the **Orders** menu button of **Add** menu cascade. When we click this button, a window as below should open.
 
