@@ -56,7 +56,7 @@ Note that all entries that are created must be filled and the neighbour categori
 
 In order to delete an entire category frame, the checkbutton of the category that is wanted to be deleted should be checked and the minus button at the top is used. This would delete the sub categories of a selected category too. However if a sub category is wanted to be deleted, the minus button of the parent category should be used.
 
-If we fill the category and sub category fields as can be accepted, we could press the green colored tick button which is at the bottom of the window. Below you are seeing an example category tree.
+If we fill the category and sub category fields as can be accepted, we could press the green colored tick button which is at the bottom of the window. Below you are seeing an example of a category tree.
 
 ![img8](https://user-images.githubusercontent.com/29302909/98679893-b3d09500-2371-11eb-91cc-12cb816c54c8.png)
 
