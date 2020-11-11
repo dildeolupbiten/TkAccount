@@ -50,7 +50,7 @@ As you see each sub category itself also contains a plus button. So we could cre
 
 Note that all entries that are created must be filled and the neighbour categories shouldn't have the same text, otherwise users should receive warning messages like below.
 
-![img6](https://user-images.githubusercontent.com/29302909/98678773-22145800-2370-11eb-9825-d003f9b03651.png)
+![img6](https://user-images.githubusercontent.com/29302909/98820771-aaadf980-243f-11eb-9e18-a329cbee7656.png)
 
 ![img7](https://user-images.githubusercontent.com/29302909/98678966-5f78e580-2370-11eb-8dab-f52e4a86b7b0.png)
 
