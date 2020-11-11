@@ -118,7 +118,7 @@ We could select a row from the treeview and then if we use the right click of th
 
 ![img19](https://user-images.githubusercontent.com/29302909/98700680-81329680-2389-11eb-9d3f-a382d0d7e4fe.png)
 
-As you see, the opened window contains values that are stored in the database. If we change values that are written to entries and then press the tick button, the changes will be applied to tables which are relational in the database.
+As you see above, the opened window contains values that are stored in the database. If we change values that are written to entries and then press the tick button, the changes will be applied to tables which are relational in the database.
 
 Briefly, if any change is done on order records, this could effect **Product (Stocks)** records also. For example, if we change **Number Of Products** of a product that a customer is bought, **Number Of Products** and **Total Price** of this product would be changed in the **Products (Stocks)** table. Or if we change the **Product Name**, this time, the previous order would be canceled, the **Number Of Products** value of the canceled product would be restored in the **Products (Stocks)** table, the **Total Price** would be re-calculated and finally the **Number of Products** and the **Total Price** of the new product would be changed in the **Products (Stocks)** table.
 
@@ -142,7 +142,7 @@ As mentioned before, **Number Of Products** and the **Total Price** values of th
 
 We could also change values of records in **Purchases** table. However this has no effect upon **Products** and **Orders** tables. In the first time we added products, the **Purchases** and **Products** tables would contain same items. However, when we start adding orders, values of products in the **Products** table would change. So, the **Purchases** table shows products that we purchased in time.
 
-In order to edit a record, we should do the same things that are described above.
+In order to edit a record, we should do same things that are described above.
 
 **6.** The **Plot** menu cascade contains two menu buttons called **Products** and **Customers**. The **Products** menu button is for plotting graphs based on products whereas the **Customers** menu button is for plotting graphs based on customers.
 
