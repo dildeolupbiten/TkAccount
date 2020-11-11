@@ -83,7 +83,7 @@ class Category(FormWindow):
                     icons=icons,
                     message=self.error
                 )
-            elif self.error == "Fill all the entries!":
+            elif self.error == "Fill all entries!":
                 MsgBox(
                     title="Warning",
                     level="warning",
