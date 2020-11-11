@@ -88,7 +88,7 @@ In order to add products that are ordered by this customer, we should click the 
 
 ![img14](https://user-images.githubusercontent.com/29302909/98688794-4b3ae580-237c-11eb-8a76-dfc3ce1d8b26.png)
 
-We could also enlarge the window and/or use the scrollbars to see the parts which are unseen of the added product.
+We could also enlarge the window and/or use scrollbars to see the parts which are unseen of the added product.
 
 ![img15](https://user-images.githubusercontent.com/29302909/98689162-b4225d80-237c-11eb-9061-d1c796cd8388.png)
 
@@ -98,7 +98,7 @@ First, we should select the **Product Category**. Selecting the **Product Catego
 
 ![img16](https://user-images.githubusercontent.com/29302909/98690583-247dae80-237e-11eb-8389-9ef9fd05ad04.png)
 
-According to the below image, the greatest value we could write to the **Number Of Products** entry for this product is **39**. If we type **39**, to the **Number Of Products** entry, that would mean, all the stock for this products would be sold to this customer. And the stock number would become **0**. And this product would be deleted from our stock database. The database of the program is relational. So the stock numbers of the products would be updated when they are sold.
+According to the below image, the greatest value we could write to the **Number Of Products** entry for this product is **39**. If we type **39** to the **Number Of Products** entry, that would mean, all stock for this products would be sold to this customer. And the stock number would become **0**. And this product would be deleted from our stock database. The database of the program is relational. So the stock numbers of the products would be updated when they are sold.
 
 The entry which comes after **Number Of Products** is for specifying the **Discount** that we want to make. And at the right of the **Discount** entry, we are seeing the **Gain** entry. To this entry, we are writing the value that means how much gain we want to have. After filled these entries, the values of **Total Price** and **Total Gain** would be calculated and be inserted to the related entries. Note that we should fill all the entries here too. Below you see a correct example of an order.
 
