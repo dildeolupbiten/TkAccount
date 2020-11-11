@@ -80,11 +80,11 @@ We could add many products by clicking the plus button. If all entries are fille
 
 ![img12](https://user-images.githubusercontent.com/29302909/98687269-9b18ad00-237a-11eb-9736-5a6ad34b71a0.png)
 
-This window has two parts. One part which is at the top of this window, is for writing the customer information. The other part is for adding products which are ordered by this customer. The customers and the products that they are ordered would be stored in the database. So, if this is the first time we add a customer,we should type the **Name** and **Email** of the customer by hand. However if there's a customer that is already been in the database, we could type a letter or a word, then we could press to **Enter** key. After that a drop down menu would occur. This drop down menu contains all the customers whose name starts with the characters we wrote to the **Name** entry and we could select the customer from this list. After we selected the customer, the information of the customer would be inserted to the **Name** and **Email** entries.
+This window has two parts. One part which is at the top of this window, is for writing the customer information. The other part is for adding products which are ordered by this customer. Customers and their ordered products will be stored in the database. So, if this is the first time we add a customer,we should type the **Name** and the **Email** of the customer by hand. However if there's a customer that is already been in the database, we could type a letter or a word, then we could press to **Enter** key. After that a drop down menu would occur. This drop down menu contains all customers whose name starts with characters we wrote to the **Name** entry and we could select the customer from this list. After we selected the customer, the information of the customer would be inserted to the **Name** and **Email** entries.
 
 ![img13](https://user-images.githubusercontent.com/29302909/98688501-f7c89780-237b-11eb-8d13-53f41b2f84fe.png)
 
-In order to add products that is ordered by this customer, we should click the green colored plus button. After that a frame would be created as below.
+In order to add products that are ordered by this customer, we should click the green colored plus button. After that a frame would be created as below.
 
 ![img14](https://user-images.githubusercontent.com/29302909/98688794-4b3ae580-237c-11eb-8a76-dfc3ce1d8b26.png)
 
