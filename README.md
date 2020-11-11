@@ -34,7 +34,7 @@ In order to run **TkAccount**, at least [Python](https://www.python.org/)'s 3.6 
 
 **4.** The **Add** menu cascade has 3 menu buttons called **Category**, **Product** and **Order**.
 
-**4.1.** In the first run of the program, users should first add categories for the products they will create later. If users click the **Product** or **Order** menu buttons before creating the categories, the program will show warning messages that remind the users what they should do. If the **Category** menu buttons is clicked, a window as below should be created.
+**4.1.** In the first run of the program, users should first add categories for the products they will create later. If users click the **Product** or **Order** menu buttons before creating the categories, the program will show warning messages that remind the users what they should do. If the **Category** menu button is clicked, a window as below should be created.
 
 ![img3](https://user-images.githubusercontent.com/29302909/98676558-cf856c80-236c-11eb-8191-3a02e9dee8fb.png)
 
