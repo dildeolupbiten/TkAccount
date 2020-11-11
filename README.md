@@ -68,7 +68,7 @@ The functions of the buttons which are at the top of the window are same with th
 
 ![img10](https://user-images.githubusercontent.com/29302909/98682384-eaf47580-2374-11eb-9490-65832c2d1e71.png)
 
-If we want to delete the product frame, we could click the checkbutton of the frame which is at the left then press minus button.
+If we want to delete the product frame, we could click the checkbutton of the frame which is at the left then press the minus button.
 
 In the **Product Category** field, we should select the categories we added before. In the **Product Name** field, we should write the name of product. Then we should write the unit price of the product to the **Unit Price** field. And finally we should fill the **Number Of Products** entry. Note that if non-numerical values are added to the **Unit Price** and **Number Of Products** entries, the characters that are written to this entries would be deleted. The **Total Price** value would be calculated automatically when the **Unit Price** and **Number Of Products** entries are filled correctly.
 
