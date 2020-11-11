@@ -214,11 +214,11 @@ As we see above, this opened window too is separated into two frames vertically.
 
 ![img34](https://user-images.githubusercontent.com/29302909/98809170-3028ae00-242e-11eb-89e4-c5aa576ab8ec.png)
 
-In the picture above, we see the product distribution that are bought by Suzan Wolf between 01.01.2018 and 11.11.2020. And it seems the product that Suzan Wolf bought most is **Royal**. Let's look at the product Suzan Wolf spends the most on.
+In the picture above, we see the distribution of the products that are bought by Suzan Wolf between 01.01.2018 and 11.11.2020. And it seems Suzan Wolf mostly bought the **Royal** product. Let's look at the product that Suzan Wolf spends money most on.
 
 ![img35](https://user-images.githubusercontent.com/29302909/98809891-5e5abd80-242f-11eb-9782-2001f8cd8991.png)
 
-As can be seen above, the product that Suzan Wolf spends most on is **Royal**.
+As can be seen above, the product that Suzan Wolf spends money most on is **Royal**.
 
 If we select all customers and take a look at the product distribution, the graph we get should be the graph that we saw in the previous section. In that graph **U.S. Polo** was the product that brought most money and **Chopard** should be the product that was sold most.
 
