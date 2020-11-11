@@ -114,7 +114,7 @@ class Category(FormWindow):
                     frame.entry.cget("style"),
                     fieldbackground="red"
                 )
-                self.error = "Fill all the entries!"
+                self.error = "Fill all entries!"
             if frames:
                 data[frame.entry.get()] = self.get_categories(
                     widget=frame,
