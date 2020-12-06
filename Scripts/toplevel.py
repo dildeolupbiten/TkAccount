@@ -86,6 +86,10 @@ class ViewWindow(tk.Toplevel):
 class PlotView(tk.Toplevel):
     def __init__(self, icons, title, label, columns, *args, **kwargs):
         super().__init__(*args, **kwargs)
+        self.order = read_from_database(table="ORDERS")
+        if not self.order:
+            self.destroy()
+            return
         self.title(title)
         self.geometry("1024x600")
         self.style = ttk.Style()
@@ -121,7 +125,6 @@ class PlotView(tk.Toplevel):
         self.treeview.pack()
         self.checkbutton_frame = tk.Frame(master=self.left_frame)
         self.checkbutton_frame.pack()
-        self.order = read_from_database(table="ORDERS")
         self.cumulative_or_comparative = self.create_checkbutton(
             texts=["Cumulative", "Comparative"],
         )
